@@ -8,5 +8,7 @@ Things you need to consider before running this file:
 - You can probably only use the pi-hole as a DNS server instead of DHCP server, which is how it works best anyway.
 
 Download basic-install.sh however you want.
+
 I would advise that you read over it before you install it.
+
 `sudo bash basic-install.sh`
