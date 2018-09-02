@@ -9,11 +9,12 @@ Things you need to consider before running this file:
 
 I would advise that you read over all of the files before you install them.
 
-`git clone https://github.com/oldjamey/pi-hole-kali.git`
+```
+git clone https://github.com/oldjamey/pi-hole-kali.git
+cd pi-hole-kali && sudo bash basic-install.sh
+```
 
-`cd pi-hole-kali && sudo bash basic-install.sh`
-
-##Edit:##
+**Edit:**
 
 The basic-install.sh is for an older version, and the upgrade didn't work, so I added additional files in order to complete a working upgrade.
 If you have any trouble after running the install and the upgrade, just submit an issue, and I will look into it.
