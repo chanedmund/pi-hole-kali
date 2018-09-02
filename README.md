@@ -26,9 +26,9 @@ To run/upgrade to the latest version after running the install script with the c
 
 ```
 sudo cp update.sh /opt/pihole/ && chmod +x /opt/pihole/update.sh
-sed 's/dhcpcd5 //' '/etc/.pihole/automated install/basic-install.sh'
+sudo sed 's/dhcpcd5 //' '/etc/.pihole/automated install/basic-install.sh'
 pihole -up
-sed 's/dhcpcd5 //' '/etc/.pihole/automated install/basic-install.sh'
+sudo sed 's/dhcpcd5 //' '/etc/.pihole/automated install/basic-install.sh'
 ```
 
 ^ Running the last `sed` command should allow you to run `pihole -up` in the future without the script crapping out.
