@@ -16,7 +16,10 @@ cd pi-hole-kali && sudo bash basic-install.sh
 
 **Edit:**
 
-The basic-install.sh is for an older version, and the upgrade didn't work, so I added additional files in order to complete a working upgrade.
+The basic-install.sh is for an older version, and the upgrade didn't work.
+
+I added an updated `update.sh` and additional instructions in order to complete a working upgrade.
+
 If you have any trouble after running the install and the upgrade, just submit an issue, and I will look into it.
 
 To run/upgrade to the latest version after running the install script with the commands above, run the following commands:
